@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    font-family: "Inter", sans-serif;
+}
+
+.container, ul{
+    margin: 0 auto;
+    width: 50%;
+}
+
+header , .text, footer{
+    text-align: center;
+}
+
+main{
+    margin: 50px 0;
+}
+
+
+main h1{
+    font-size: 3.2em;
+    font-weight: 300;
+}
+
+h1 span{
+    font-weight: 700;
+}
+
+span, a{
+    color: #ff9900;
+}
+
+p{
+    color: #0000007a;
+    font: normal;
+    margin: 30px 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+li{
+    margin: 0 20px;
+}
+
+li a{
+    text-decoration: none;
+}
